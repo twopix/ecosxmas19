@@ -1,0 +1,119 @@
+doctype html
+html
+  head
+    meta(charset="utf8")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Great+Vibes|Roboto")
+    
+    meta(property="og:url", content="https://xmas19.twopix.gr/")
+		
+    meta(property="og:type", content="website" )
+		
+    meta(property="og:title", content="Merry Christmas... with song | Twopix team & Kosides trio" )
+		
+    meta(property="og:description", content="We Wish you a Merry Christmas. We Wish you a Merry Christmas.  We Wish you a Merry christmas and Happy New Year" )
+		
+    meta(property="og:image", content="https://xmas19.twopix.gr/static/img/xmas.jpg" )
+
+    meta(name="yandex-verification", content="93dc53c39ff13e60")
+
+    title Merry christmas and Happy New Year | Twopix team & Kosides Trio
+    
+  body
+    .main-wrapper
+
+      .tree-container
+        .star
+        .spiral-container
+          ul.spiral.one
+            - for (var x = 1; x <=43; x++)
+              li.light-wrapper(
+                class="light-wrapper-"+x
+              )
+                .stabilise: .light
+
+          ul.spiral.two
+            - for (var x = 1; x <=43; x++)
+              li.light-wrapper(
+                class="light-wrapper-"+x
+              )
+                .stabilise: .light
+
+          ul.spiral.three
+            - for (var x = 1; x <=43; x++)
+              li.light-wrapper(
+                class="light-wrapper-"+x
+              )
+                .stabilise: .light
+
+      .lyrics-container
+        //- h2 The best is yet to come
+        //- h2.happy Merry Christmas and Happy New Year
+        include /partials/player.pug
+
+      .text-container
+        .wrap
+          .player.paused
+            .progress-bar
+              .runner
+            .album-art
+              .cover
+            .description
+              .title We Wish You a Merry Christmas
+              .sub-title 
+                a(href="https://www.youtube.com/watch?v=QVy2B-H9bqA", target="_blank") Note 'n' Rest 
+            .visualizer
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+              div
+            .play-button
+              .lp-background
+              i.mdi.mdi-play
+              i.mdi.mdi-pause
+            .time-indicator
+              i.mdi.mdi-clock
+              span.time 
+                |  1:48
