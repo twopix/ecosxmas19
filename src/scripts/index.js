@@ -5,8 +5,9 @@ import '../assets/images/xmas.jpg'
 import '../assets/images/vynil.png'
 import '../assets/images/kosides-trio.jpg'
 import '../assets/audio/We-wish-you-a-merry-Christmas.mp3'
+import '../assets/audio/Kai_Engel_-_03_-_Holiday_Gift.mp3'
 
-let audio = new Audio('/audio/We-wish-you-a-merry-Christmas.mp3')
+let audio = new Audio('/audio/Kai_Engel_-_03_-_Holiday_Gift.mp3')
 /*
  * Rabbit Lyrics
  *
